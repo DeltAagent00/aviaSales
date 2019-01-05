@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  AviaSales
+
+  Created by Alex on 04/01/2019.
+  Copyright © 2019 Alex. All rights reserved.
+*/
+
+"rub" = "rub.";
+"by" = "за";
+
+"cities" = "Cities";
+"airports" = "Airports";
+
+// TabBarController
+
+"search_tab" = "Search";
+"map_tab" = "Map price";
+"favorites_tab" = "Favorite";
+
+
+// MainViewController
+
+"main_from" = "From";
+"main_to" = "To";
+"main_search" = "Find";
+
+
+// FirstViewController
+
+"about_app_header" = "ABOUT APP";
+"tickets_header" = "AIR TICKETS";
+"map_price_header" = "MAP PRICE";
+"favorites_header" = "FAVORITE";
+
+"about_app_describe" = "Airline search application";
+"tickets_describe" = "Find the cheapest flights";
+"map_price_describe" = "View price map";
+"favorites_describe" = "Save selected tickets to favorites";
+
+"next_button" = "NEXT";
+"done_button" = "DONE";
+
+
+// TicketsViewController
+
+"tickets_title" = "Tickets";
+"add_to_favorite" = "Add to favorite";
+"remove_from_favorite" = "Remove from favorite";
+"remind_me" = "Remind";
+"ticket_reminder" = "Ticket reminder";
+"notification_will_be_sent" = "Notification will be sent";
+"success" = "Success";
+
+// Alerts
+
+"error" = "Error";
+"tickets_not_found" = "No tickets found for this destination";
+"close" = "Close";
+"not_set_place_arrival_or_departure" = "You must specify the place of departure and place of arrival";
+"actions_with_tickets" = "Ticket actions";
+"actions_with_tickets_describe" = "What needs to be done with the selected ticket?";
+"not_determine_current_city" = "Could not determine current city!";

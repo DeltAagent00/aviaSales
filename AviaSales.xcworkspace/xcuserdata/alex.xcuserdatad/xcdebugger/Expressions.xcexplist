@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DataManager cityForLocation:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ceilf(city.coordinate.latitude)">
+            </PersistentString>
+            <PersistentString
+               value = "ceilf(location.coordinate.longitude)">
+            </PersistentString>
+            <PersistentString
+               value = "ceilf(city.coordinate.longitude)">
+            </PersistentString>
+            <PersistentString
+               value = "location.coordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
