@@ -23,9 +23,7 @@
     
     TabBarController *firstViewController = [[TabBarController alloc] init];
     
-    UINavigationController *navigationViewController = [[UINavigationController alloc] initWithRootViewController:firstViewController];
-    
-    self.window.rootViewController = navigationViewController;
+    self.window.rootViewController = firstViewController;
     
     [self.window makeKeyAndVisible];
     

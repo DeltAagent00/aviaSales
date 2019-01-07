@@ -94,6 +94,7 @@
                     if (tickets.count > 0) {
                         TicketsViewController *ticketsViewController = [[TicketsViewController alloc] initWithTickets:tickets];
                         [self.navigationController showViewController:ticketsViewController sender:self];
+//                        [self showViewController:ticketsViewController sender:self];
                     } else {
                         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:[@"error" localize] message:[@"tickets_not_found" localize] preferredStyle: UIAlertControllerStyleAlert];
                         [alertController addAction:[UIAlertAction actionWithTitle:[@"close" localize] style:(UIAlertActionStyleDefault) handler:nil]];
@@ -205,6 +206,8 @@
     }
     placeViewController.delegate = self;
     [self.navigationController pushViewController: placeViewController animated:YES];
+    
+//    [self showViewController:placeViewController sender:self];
 }
 #pragma mark - PlaceViewControllerDelegate
 
